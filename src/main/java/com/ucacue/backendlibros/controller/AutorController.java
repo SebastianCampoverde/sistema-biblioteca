@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 //esto es un controlador
-//el controlador esta actualizado con la base de datos 2
+//el controlador esta mapeando autores y autores por id
 @Controller
 @RestController
 @RequestMapping("/api")
@@ -30,6 +30,5 @@ public class AutorController {
     @GetMapping("/autores/{id}")
     public List<Libro> getLibroByAutor(@PathVariable int id){
         return autorRepository.findById(id).get().getLibros();
-
     }
 }
