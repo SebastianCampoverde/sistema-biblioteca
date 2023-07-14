@@ -12,3 +12,5 @@ public class Docente extends Persona {
 
     private String titulo;
 }
+
+//este es un modelo docente
