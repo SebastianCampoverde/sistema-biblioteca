@@ -1,6 +1,6 @@
 package com.ucacue.backendlibros.model;
 
-
+//esto es un modelo Autor
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.Data;
 
