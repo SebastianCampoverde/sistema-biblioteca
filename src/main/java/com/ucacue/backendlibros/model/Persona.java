@@ -19,6 +19,6 @@ public abstract class Persona {
     private String apellido;
     private String nacionalidad;
     private String direccion;
-
+//este es un modelo persona
 
 }
