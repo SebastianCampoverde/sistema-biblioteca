@@ -12,7 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-
+//esto es un controlador
+//el controlador esta actualizado con la base de datos 2
 @Controller
 @RestController
 @RequestMapping("/api")
